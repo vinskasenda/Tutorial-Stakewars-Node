@@ -132,11 +132,11 @@ Tunggu 1-10 menit
 ![img](./images/13.webp)
 
 
-Now when our server is displayed we can proceed to install the OS
+Sekarang ketika server kami ditampilkan, kami dapat melanjutkan untuk menginstal OS
 
-Click on our server, click on the Linux tab and here you will find the following repositories to choose from
+Klik pada server kami, klik pada tab Linux dan di sini Anda akan menemukan repositori berikut untuk dipilih:
 
-We recommend distributions
+Kami merekomendasikan distribusi
 
 * Debian 10
 * Debian 11
@@ -148,34 +148,34 @@ We recommend distributions
 ![img](./images/14.webp)
 
 
-# Step II - Create Shardner wallet
+**# Langkah II - Buat dompet Shardner**
 
-We recommend that you use browsers that are not based on Chromium:
+Kami menyarankan Anda menggunakan browser yang tidak berbasis Chromium:
 Opera, Mozilla, IE
 
-Go to [https://wallet.shardnet.near.org/] and create wallet choose your name and save seed phrase. This walled will be used to hold NEAR tokens.
+Buka [https://wallet.shardnet.near.org/] dan buat dompet, pilih nama Anda dan simpan frasa awal. Dinding ini akan digunakan untuk menyimpan token DEKAT.
 
 ![img](./images/15.webp)
 
 
 
-Random name
+Nama acak
 
 
 ![img](./images/16.webp)
 
 
-And we have test 500 NEAR token
+Dan kita mendapatkan 500 Token NEAR
 
 
 ![img](./images/17.webp)
 
 
 
-# Step III - Install NEAR CLI and dev tools
-Connecting to your server
+# Langkah III - Instal DEKAT CLI dan alat pengembang
+Menghubungkan ke server Anda
 
-Before you start, you may want to confirm that your machine has the right CPU features.
+Sebelum memulai, Anda mungkin ingin memastikan bahwa mesin Anda memiliki fitur CPU yang tepat.
 
 ```
 lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
@@ -183,9 +183,9 @@ lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
   || echo "Not supported"
 ```
 > Input
-To operate with NEAR Protocol network we need a tool. It’s called NEAR-CLI.
+Untuk beroperasi dengan jaringan NEAR Protocol kita membutuhkan sebuah alat. Ini disebut NEAR-CLI.
 
-###### Install dev tools
+###### Instal alat pengembang
 
 1. First we need to make sure that your system is up to date:
 
