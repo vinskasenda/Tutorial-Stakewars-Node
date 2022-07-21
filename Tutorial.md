@@ -49,11 +49,11 @@ Kami akan menunjukkan kepada Anda contoh (Hetzner)[https://www.hetzner.com/]
 
 2. Pergi ke https://www.hetzner.com/ Di bagian atas situs pilih Dedicated
 
-![img](./images/1.png)
+![img](./images/1.webp)
 
 3. Klik pada Server Finder dan pilih server yang Anda suka, tetapi spesifikasinya tidak boleh di bawah yang direkomendasikan
 
-![img](./images/2.png)
+![img](./images/2.webp)
 
 
 Di sini kita melihat bahwa server kedua dengan NVMe SSD sesuai dengan kebutuhan perangkat keras kita
