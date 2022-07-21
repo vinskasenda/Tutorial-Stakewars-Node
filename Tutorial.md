@@ -1,39 +1,33 @@
-Step I - Order dedicated server
+**Langkah I - Pesan server khusus**
 
-After testing and digging, I found that Hetzner is one of the best services among its competitors
+Setelah menguji dan menggali, saya menemukan bahwa Hetzner adalah salah satu layanan terbaik di antara para pesaingnya
 
-* Cheap price for servers
-* UP Time - 99.9%
-* Easy to manage
-
-
-
-Links
-|   |   |
+Tautan
+| | |
 | ------------------------------------- | ------------------------|
-|Wallet    | [https://wallet.shardnet.near.org/] |
-|Explorer  | [https://explorer.shardnet.near.org/] |
-|Hetzner   | [https://www.hetzner.com/] |
+|Dompet | [https://wallet.shardnet.near.org/] |
+|Penjelajah | [https://explorer.shardnet.near.org/] |
+|Hetzner | [https://www.hetzner.com/] |
 
 
 
-What do we need?
-|   |   |
+**Apa yang kita butuhkan?**
+| | |
 | ------------------------------------- | ------------------------|
-|Credit Card or PayPal with money| 30-50€ |
-|The server, the instructions below| 👇   |
-|And a program to manage our server remotely| |
+|Kartu Kredit atau PayPal dengan uang| Rp.500.000 |
+|Server, petunjuk di bawah| |
+|Dan sebuah program untuk mengelola server kita dari jarak jauh| |
 
 
-|   |   |
+| | |
 | ------------------------------------- | ------------------------|
-|MobaXterm      |  [https://mobaxterm.mobatek.net/]
-|PuTTY      |- [https://www.putty.org/]
+|MobaXterm | [https://mobaxterm.mobatek.net/]
+|PuTTY |- [https://www.putty.org/]
 
-# STEP I Register, and order dedicated server
-## To begin with, you need to buy a server
+LANGKAH I Daftar, dan pesan dedicated server
+Untuk memulainya, Anda perlu membeli server
 
-In Challenge (005)[https://github.com/near/stakewars-iii/blob/main/challenges/005.md] you can choose from the following services
+**Dalam Tantangan (005)[https://github.com/near/stakewars-iii/blob/main/challenges/005.md] Anda dapat memilih dari layanan berikut**
 
 * Amazon Web Services
 * Google Cloud Platform
@@ -42,10 +36,10 @@ In Challenge (005)[https://github.com/near/stakewars-iii/blob/main/challenges/00
 * DigitalOcean
 * Hetzner
 
-We will show you on the example of (Hetzner)[https://www.hetzner.com/]
+Kami akan menunjukkan kepada Anda contoh (Hetzner)[https://www.hetzner.com/]
 
-## Server Requirements
-1. Choosing a server Please see the hardware requirement below:
+## Persyaratan Server
+1. Memilih server Silakan lihat persyaratan perangkat keras di bawah ini:
 
 | TYPE  |  Requirement |
 | ------------------------------------- | ------------------------|
@@ -53,86 +47,86 @@ We will show you on the example of (Hetzner)[https://www.hetzner.com/]
 |RAM    | 8GB DDR4    |
 |STORAGE    | 500GB SSD   |
 
-2. Go to https://www.hetzner.com/ At the top of the site select Dedicated
+2. Pergi ke https://www.hetzner.com/ Di bagian atas situs pilih Dedicated
 
 ![img](./images/1.webp)
 
-3. Click on Server Finder and choose the server you like, but its specifications should not be below the recommended
+3. Klik pada Server Finder dan pilih server yang Anda suka, tetapi spesifikasinya tidak boleh di bawah yang direkomendasikan
 
 ![img](./images/2.webp)
 
 
-Here we see that the second server with NVMe SSD fits our hardware requirement
+Di sini kita melihat bahwa server kedua dengan NVMe SSD sesuai dengan kebutuhan perangkat keras kita
 
-## Let's proceed to ordering a server using the AX41-NVMe as an example
+## Mari kita lanjutkan untuk memesan server menggunakan AX41-NVMe sebagai contoh
 
-* We press on Order
-* We will be redirected on configuration of a server
+* Kami menekan Pesanan
+* Kami akan diarahkan pada konfigurasi server
 
 ![img](./images/3.webp)
 
-Let's scroll down to selection of operating system
+Mari gulir ke bawah untuk memilih sistem operasi
 
 
 ![img](./images/4.webp)
 
 
-* Here we can choose if we want a new operating system or if we want to install a new one, we choose Rescue System
-* Then click on Order Now
-* We will be redirected to confirm the order
+* Di sini kita dapat memilih apakah kita ingin sistem operasi baru atau jika kita ingin menginstal yang baru, kita memilih Sistem Penyelamatan
+* Kemudian klik Pesan Sekarang
+* Kami akan diarahkan untuk mengkonfirmasi pesanan
 
 
 ![img](./images/5.webp)
 
 
-* Click Save
+* Klik Simpan
 
 
 ![img](./images/6.webp)
 
 
-* Here we click on Checkout
-* And then comes the account login page
+* Di sini kita klik Checkout
+* Dan kemudian muncul halaman login akun
 
 
 ![img](./images/7.webp)
 
 
-* Here we click on Register Now - if you do not have an account
-* Or log in through your account
+* Di sini kita klik Daftar Sekarang - jika Anda tidak memiliki akun
+* Atau masuk melalui akun Anda
 
-Registration here is standard and not complicated
+Pendaftaran disini standar dan tidak ribet
 
 ![img](./images/8.webp)
 
 
-* Go to the mailbox
+* Pergi ke kotak surat
 
 
 ![img](./images/9.webp)
 
 
-* Confirm registration
-* Input First Name and Surname
+* Konfirmasi pendaftaran
+* Masukkan Nama Depan dan Nama Belakang
 
 
 ![img](./images/10.webp)
 
 
-* Input Your contact information
+* Masukkan informasi Email
 
 
 ![img](./images/11.webp)
 
 
-* Next we need to choose our payment method
+* Selanjutnya kita harus memilih metode pembayaran kita
 
 
 ![img](./images/12.webp)
 
 
-## Now we just have to wait until the server appears in our personal cabinet
-Wait 1-10 minutes
+## Sekarang kita hanya perlu menunggu sampai server muncul di kabinet pribadi kita
+Tunggu 1-10 menit
 
 
 ![img](./images/13.webp)
