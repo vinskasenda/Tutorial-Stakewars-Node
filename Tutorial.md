@@ -155,7 +155,7 @@ Opera, Mozilla, IE
 
 Buka [https://wallet.shardnet.near.org/] dan buat dompet, pilih nama Anda dan simpan frasa awal. Dinding ini akan digunakan untuk menyimpan token DEKAT.
 
-![img](./images/3.png)
+![img](./images/15.webp)
 
 
 
